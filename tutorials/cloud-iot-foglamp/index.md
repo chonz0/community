@@ -282,14 +282,34 @@ The output will have JSON data corresponding to the generated data.
 └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────┴────────────────────────────────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
+Now that you've seen how the plugin works end-to-end, you can delete the North
+instance to prevent data from continuing to be published by navigating to the
+North menu on the FogLamp GUI, selecting your instance of the GCP Gateway
+plugin, and then clicking the Delete instance button.
+
 ## Conclusions and next steps
-Now that you have seen how FogLamp works on a Raspberry Pi, it's a great time
-to take a look at their other hardware partners such as … to
+FogLamp provides a robust solution for getting data into Google Cloud Platform
+using Cloud IoT Core. You can readily migrate the data from PubSub to persistent
+data stores such as:
 
+* [Google Cloud BigQuery](https://cloud.google.com/bigquery/docs)
+* [Google Cloud SQL](https://cloud.google.com/sql/docs)
+* [Google Cloud Spanner](https://cloud.google.com/spanner/docs)
 
+and can analyze the data using Googel Cloud Analytics products.
 
-Feedback:
-Raspberry Pi Zero lab
-Filters
-Events
+You can also evaluate other South plugins such as the [SenseHat](https://github.com/foglamp/foglamp-south-sensehat)
+plugin which transmits gyroscope, accelerometer, magnetometer, temperature,
+humidity, and barometric pressure.
 
+You can also look into the hardware patners for more robust and secure hardware
+solutions. The following reference hardware solutions are available from Nexcom:
+
+* [NISE50](http://www.nexcom.com/Products/industrial-computing-solutions/industrial-fanless-computer/atom-compact/fanless-nise-50-iot-gateway)
+* [NISE105](http://www.nexcom.com/Products/industrial-computing-solutions/industrial-fanless-computer/atom-compact/fanless-computer-nise-105)
+* [NISE3800](http://www.nexcom.com/Products/industrial-computing-solutions/industrial-fanless-computer/core-i-performance/fanless-pc-fanless-computer-nise-3800e)
+
+Finally, you can look into advanced usage of the FogLamp platform through
+features such as [filters](https://foglamp.readthedocs.io/en/master/foglamp_architecture.html#filters),
+[events](https://foglamp.readthedocs.io/en/master/foglamp_architecture.html#event-engine),
+and API access to device data with [applications](https://foglamp.readthedocs.io/en/master/foglamp_architecture.html#rest-api).
