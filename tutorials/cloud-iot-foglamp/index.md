@@ -3,7 +3,7 @@ title: Using Dianomic FogLamp with Cloud IoT Core
 description: Learn how to process sensor data with Dianomic FogLamp
 author: gguuss
 tags: Cloud IoT Core, Gateways, Raspberry Pi, Python, MQTT, internet of things
-date_published: 2018-12-10
+date_published: 2020-01-07
 ---
 
 Gus Class | Developer Programs Engineer | Google Cloud IoT Core
