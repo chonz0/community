@@ -1,10 +1,18 @@
-# Using Dianomic FogLamp with Google Cloud IoT Core
+---
+title: Using Dianomic FogLamp with Cloud IoT Core
+description: Learn how to process sensor data with Dianomic FogLamp
+author: gguuss
+tags: Cloud IoT Core, Gateways, Raspberry Pi, Python, MQTT, internet of things
+date_published: 2018-12-10
+---
+
+Gus Class | Developer Programs Engineer | Google Cloud IoT Core
 
 FogLamp from Dianomic provides a robust solution for getting data from sensors
 into data stores.  The following diagram illustrates the platform architecture
 for FogLamp in the context of Google Cloud IoT Core (Cloud Iot Core).
 
-
+![FogLamp Architecture with Cloud IoT Core](image/foglamp-arthictecture.png)
 
 In the context of getting data into Google Cloud from sensors, the FogLamp
 architecture consists of a service that bridges sensors that communicate
