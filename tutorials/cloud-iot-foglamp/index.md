@@ -121,7 +121,7 @@ URL http://192.168.1.217.
 When you navigate to the web server, you will see a dashboard similar to the
 following image.
 
-![FogLamp GUI dashboard][image/foglamp-gui.png]
+![FogLamp GUI dashboard](image/foglamp-gui.png)
 
 Now it's time to install the plug-ins for connecting to Google Cloud Platform
 and generating data.
@@ -138,12 +138,12 @@ sudo apt install ./foglamp-south-random-1.7.0-armv7l.deb
 Now navigate to the "South" menu on the left side of the FogLamp GUI navigation
 and click the `Add +` button as seen in the following image.
 
-![Add button][image/foglamp-south-add.png]
+![Add button](image/foglamp-south-add.png)
 
 Now, select the Random plugin, give your plugin a name, e.g. `random`, and
 click next.
 
-![Add random plugin][image/foglamp-south-add-random.png]
+![Add random plugin](image/foglamp-south-add-random.png)
 
 Click `Next` again on the next screen, then select `Done` on the final
 form.
