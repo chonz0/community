@@ -15,7 +15,7 @@ For this quickstart we'll be using a Raspberry Pi to host the FogLamp service.
 
 ## Setup your Raspberry Pi with the Raspbian Buster image
 This tutorial requires that you use the Debian Buster version of the Raspberry
-Pi software because it uses packages built for that verision of Linux. To get
+Pi software because it uses packages built for that version of Linux. To get
 Buster on your Raspberry Pi, first download a Raspbian buster image from the
 [Raspbian downloads page](https://www.raspberrypi.org/downloads/raspbian/).
 
@@ -173,7 +173,7 @@ North menu on the FogLamp GUI and click the `Create North Instance +` button.
 Select the `GCP-Gateway` plugin, give your instance a name, e.g. GCP, and click
 the Next button.
 
-Now you will need to create a device for communigating with Cloud IoT Core.
+Now you will need to create a device for communicating with Cloud IoT Core.
 Start by navigating to the [Google Cloud IoT Core Console](https://console.cloud.google.com/iot)
 and clicking `+ Create Registry`. Input a registry ID, e.g. foglamp, and input
 a region, e.g. us-central1, and select an existing telemetry topic or create
@@ -296,13 +296,13 @@ data stores such as:
 * [Google Cloud SQL](https://cloud.google.com/sql/docs)
 * [Google Cloud Spanner](https://cloud.google.com/spanner/docs)
 
-and can analyze the data using Googel Cloud Analytics products.
+and can analyze the data using Google Cloud Analytics products.
 
 You can also evaluate other South plugins such as the [SenseHat](https://github.com/foglamp/foglamp-south-sensehat)
 plugin which transmits gyroscope, accelerometer, magnetometer, temperature,
 humidity, and barometric pressure.
 
-You can also look into the hardware patners for more robust and secure hardware
+You can also look into the hardware partners for more robust and secure hardware
 solutions. The following reference hardware solutions are available from Nexcom:
 
 * [NISE50](http://www.nexcom.com/Products/industrial-computing-solutions/industrial-fanless-computer/atom-compact/fanless-nise-50-iot-gateway)
