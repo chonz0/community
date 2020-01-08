@@ -12,7 +12,7 @@ FogLamp from Dianomic provides a robust solution for getting data from sensors
 into data stores.  The following diagram illustrates the platform architecture
 for FogLamp in the context of Google Cloud IoT Core (Cloud Iot Core).
 
-![FogLamp Architecture with Cloud IoT Core](image/foglamp-arthictecture.png)
+![FogLamp Architecture with Cloud IoT Core](image/foglamp-architecture.png)
 
 In the context of getting data into Google Cloud from sensors, the FogLamp
 architecture consists of a service that bridges sensors that communicate
