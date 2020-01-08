@@ -287,7 +287,7 @@ instance to prevent data from continuing to be published by navigating to the
 North menu on the FogLamp GUI, selecting your instance of the GCP Gateway
 plugin, and then clicking the Delete instance button.
 
-## Conclusions and next steps
+## Next steps
 FogLamp provides a robust solution for getting data into Google Cloud Platform
 using Cloud IoT Core. You can readily migrate the data from PubSub to persistent
 data stores such as:
